@@ -21,4 +21,18 @@ git checkout -- readme.txt
 or if already git add, do , git reset HEAD read.txt
 then git checkout -- readme.txt
 git status # verify
+---to delete file:
+rm test.txt
+git rm test.txt
+
+or this is a mistake, so back it up from git
+git checkout --test.txt
+--remote repo
+create ssh key, under user directory:
+ssh-keygen -t rsa -C "emailaddress@xxx.com"
+login to .ssh folder, copy id_rsa.pub file to github, accountin setting -- ssh key , add ssh key. 
+---create rep in github
+ git remote add git-origin https://github.com/richard268/git-test1.git
+ git branch -M master
+  git push -u git-origin master
 
