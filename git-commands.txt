@@ -1,0 +1,16 @@
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+mkdir git-learning
+cd git-learning
+pwd
+git init 
+vi readme.txt
+git add readme.txt
+git commit -m "whatever comment"
+vi readme.txt
+git status
+git diff readme.txt
+git add readme.txt
+git status
+git commit -m "whatever new comment - version control ,need something meaningfull"
+git status
