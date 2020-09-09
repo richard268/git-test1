@@ -1,3 +1,4 @@
+
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 mkdir git-learning
@@ -14,3 +15,10 @@ git add readme.txt
 git status
 git commit -m "whatever new comment - version control ,need something meaningfull"
 git status
+modify -- git add -- git commit
+git diff HEAD -- readme.txt #compare the differences for the head and local working zone file
+git checkout -- readme.txt
+or if already git add, do , git reset HEAD read.txt
+then git checkout -- readme.txt
+git status # verify
+
